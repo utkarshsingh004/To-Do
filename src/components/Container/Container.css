@@ -1,0 +1,36 @@
+.containerWrapper {
+    /* border: 2px solid green; */
+    width: 80%;
+    min-height: 600px;
+    margin: 70px auto;
+    border-radius: 10px;
+    box-shadow: 1px 4px 1.5px 4px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.add {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.heading {
+    margin: 6% auto;
+    width: 120px;
+    height: 50px;
+    /* border: 2px solid red; */
+
+}
+
+.historyContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.historyItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
